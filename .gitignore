@@ -1,0 +1,4 @@
+**/node_modules
+
+## totp-generator
+totp-generator/output/**

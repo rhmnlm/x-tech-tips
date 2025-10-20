@@ -1,0 +1,26 @@
+{
+  "name": "totp-generator",
+  "version": "1.0.0",
+  "description": "A TOTP (Time-based One-Time Password) generator with QR code support",
+  "main": "totp-generator.js",
+  "scripts": {
+    "start": "node totp-generator.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "totp",
+    "otp",
+    "2fa",
+    "two-factor",
+    "authentication",
+    "qr-code"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
