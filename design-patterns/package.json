@@ -1,0 +1,16 @@
+{
+    "name": "x-tech-tips",
+    "version": "1.0.0",
+    "main": "./factory.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/design-patterns/factory.js",
+        "dev": "ts-node --esm factory.ts",
+        "debug": "node --inspect factory.js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "ts-node": "^10.9.0",
+        "typescript": "^5.0.0"
+    }
+}
